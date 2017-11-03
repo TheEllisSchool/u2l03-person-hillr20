@@ -8,6 +8,8 @@ public class Game extends DrawableAdapter {
 	//create person object for Person.java
 	static Color BROWN = new Color(146, 64, 4);
 	static Person mrsLombardi = new Person(Color.GREEN, BROWN, 300, 100, 150);
+	//create another person
+	static Person leah = new Person(Color.CYAN, BROWN, 250, 400, 150);
 	
 	public static void main(String[] args) {
 		showGameBoard(gb);
@@ -18,6 +20,8 @@ public class Game extends DrawableAdapter {
 	//draw on pink background
 	public void draw(Graphics g) {
 		mrsLombardi.show(g);
+		//important so she shows up
+		leah.show(g);
 		
 	}
 
