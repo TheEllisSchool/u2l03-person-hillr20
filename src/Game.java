@@ -11,7 +11,11 @@ public class Game extends DrawableAdapter {
 	//create another person
 	static Person leah = new Person(Color.CYAN, BROWN, 250, 400, 150);
 	
+	static Person me = new Person(Color.MAGENTA, BROWN, 250, 250, 150);
+	
+
 	public static void main(String[] args) {
+		
 		showGameBoard(gb);
 
 		//System.out.println(mrsLombardi.hairColor);
@@ -22,6 +26,7 @@ public class Game extends DrawableAdapter {
 		mrsLombardi.show(g);
 		//important so she shows up
 		leah.show(g);
+		me.show(g);
 		
 	}
 

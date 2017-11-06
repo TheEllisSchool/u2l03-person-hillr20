@@ -57,7 +57,41 @@ public class Person {
 		g.fillOval(x - 10, y - 50, 10, 10);
 		g.fillOval(x + 10, y - 50, 10, 10);
 		
+		//shoes
+		g.setColor(Color.BLUE);
+		//g.fillOval(x - 5, y + height - 50, 10, 5);
+		g.fillOval(x - 45, y + height - 10 , 30, 15);
+		g.fillOval(x + 15, y + height - 10, 30, 15);
+		//g.drawOval(x - 40, y + height - 15, 10, 4);
 		
+	
+		//paint
+		g.setColor(Color.WHITE);
+		g.fillOval(x + 5, y + (((height - 50)/2) - 17), 50, 30);
+		g.setColor(Color.RED);
+		g.fillOval(x + 20, y + (((height - 50)/2) -17), 10, 10);
+		g.setColor(Color.GREEN);
+		g.fillOval(x + 32, y + (((height - 50)/2) - 12), 10, 10);
+		g.setColor(Color.BLUE);
+		g.fillOval(x + 43, y + (((height - 50)/2) - 3), 10, 10);
+		g.setColor(Color.ORANGE);
+		g.fillOval(x + 10, y + (((height - 50)/2) - 5), 10, 10);
+		g.setColor(Color.YELLOW);
+		g.fillOval(x + 25, y + (((height - 50)/2)), 10, 10);
+		//brush
+		g.setColor(Color.gray);
+		g.fillRect(x - 15, (y + ((height - 50)/2) - 15), 5, 20);
+		
+		/*for (int i = 0; i < 6; i++) {
+			g.setColor(Color.RED);
+			int r = 0;
+			int l = 0;
+			g.fillOval(x + 20 + r, y + (((height - 50)/2) -15 + r), 10, 10);
+			r = r + 10;
+			l = l - 10;
+			
+			
+		}*/
 	}
 	
 	//create person
